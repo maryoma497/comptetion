@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-1 md:flex md:items-center md:gap-12">
+        <a class="block text-teal-600" href="index.html">
+          <img src="img/microphone.png" alt="" width="40px">
+        </a>
+      </div>
+
+      
+     <h1>SIGN IN/ LOG IN:</h1>
+    <div class="app">
+        <form action="https://formsubmit.co/maryoo14medo15@gmail.com" method="POST">
+
+            <label for="name">First and last Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your first name, second, and last" required><br><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter youemail@gmail.com" required><br><br>
+      
+            <label for="Birthday">Birthday:</label>
+            <input type="date" name="Birthday" id="Birthday" required><br><br>
+        
+        
+            <label for="comp">Select Your Competition:</label><br>
+            <select name="Courses[]" id="Courses" >
+                <option value="Math">Solo Vocals</option>
+                <option value="Science">Duets & Groups</option>
+                <option value="Computer">Original Showcase</option>
+            </select><br><br>
+        
+        
+            <button type="submit">Submit Form</button>
+        </form>
+
+    </div>
+</body>
+</html>

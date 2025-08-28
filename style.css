@@ -1,0 +1,238 @@
+* {
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.header {
+    display: flex;
+    position: relative;
+    right: 230px;
+    background-color: #91cff4;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+  }
+
+
+  /* Add a black background color to the top navigation bar */
+
+  .search {
+   border:8px solid #91cff4;
+   background-color: #91cff4;
+
+
+  }
+  /* Style the links inside the navigation bar */
+  .search a {
+    float: left;
+    display: block;
+    border: none;
+    
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .search a:hover {
+    background-color: #2196F3;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .search a.active {
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .search input[type=text] {
+    float: right;
+    padding: 12px;
+    border: none;
+    height: 30px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  .about {
+    display: flex;
+    border:8px solid #91cff4;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+position: relative;
+left: 100px;
+margin: 50px;
+  }
+
+ .aboutH h1{
+font-size: 50px;
+position: relative;
+left: 650px;
+margin-top: 30px;
+
+
+ }
+
+ body.dark-mode {
+  background-color: #121212;
+  color: #E9ECEF;
+}
+body.dark-mode .header {
+  background-color: #343A40;
+  border-color: #333333;
+  color: #E9ECEF;
+
+}
+
+body.dark-mode button {
+  color: black;
+}
+body.dark-mode a {
+  color: #E9ECEF;
+}
+
+body.dark-mode .user {
+  background-color: #343A40;
+
+
+}
+body.dark-mode .search {
+  background-color: #3f3f3fd0;
+  color: #E9ECEF;
+border: 1px solid black;
+
+}
+
+#darkToggle {
+  margin-left: 10px;
+
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.dropbtn {
+  width: 30px;  
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  transform: scale(1.01);
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #DEE2E6;
+  border-radius: 5px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ADB5BD;}
+
+.show {display:block;}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  color: #212529;
+  background-color: pink;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.app input {
+  background-color: #E9ECEF;
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #212529;
+  cursor: pointer;
+
+}
+
+input[type="date"] {
+  width: 250px;
+  padding: 8px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #E9ECEF;
+  cursor: pointer;
+
+}
+
+select {
+  width: 260px;
+  padding: 8px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #212529;
+  background-color: #E9ECEF;
+  cursor: pointer;
+
+}
+
+
+textarea {
+  height: 120px;
+  width: 230px;
+  color: #212529;
+  background-color: #E9ECEF;
+  padding: 8px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.app button {
+  background-color: #E9ECEF;
+    width: 150px;
+    height: 60px;
+    color: #212529;
+    font-size: 20px;
+    border: 2px solid #333;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.app button:hover {
+  background-color: #c2c4c6;
+  transform: scale(1.08);
+  transform: translateY(-7px);
+
+}
