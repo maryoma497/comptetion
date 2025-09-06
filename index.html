@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
-<body>
+<body>  
+      <script src="https://cdn.tailwindcss.com"></script>
+
     <header class="bg-white">
         <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div class="flex h-16 items-center justify-between">
@@ -96,10 +98,36 @@
         </div>
       </header>
 
+      <div class="hero">
+          <img class="bule1" src="img/blue_circle.png" alt="" aria-hidden="true">
+  
 
+        <img class="circle1" src="img/pink_circle.png" alt="" aria-hidden="true">
+        <img class="yellow1" src="img/yellow_circle.png" alt="" aria-hidden="true">
+
+
+        <img src="img/ppl_singing.jpg" alt="learning" width="700px">
+
+        <div class="hero-left">
+            <h1>WELCOME TO MELODY MATCH!</h1><br>
+            <p>a singing competiton where we can discover your sound and soul.</p><br>
+            <a href="signIn.html" target="_blank"> 
+                <div data-aos="zoom-in-right">
+                    <button>JOIN US NOW!</button>   </div>
+            </a>
+        </div>
+
+
+    </div>
+
+  
 
 
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
